@@ -1,0 +1,101 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-spooky:hover {
+    background-image: url("https://media.giphy.com/media/3O2RL0DITFRqnNWspt/giphy.gif");
+}
+
+#gift-img-celebrate:hover {
+    background-image: url("https://media.giphy.com/media/YTbZzCkRQCEJa/giphy.gif");
+}
+
+#gift-img-congress:hover {
+    background-image: url("https://media.giphy.com/media/pLTC4eE0F4L1fwOu1L/giphy.gif");
+}
+
+#gift-img-appreciation:hover {
+    background-image: url("https://media.giphy.com/media/MtIF4jJEolvf3OEOsh/giphy.gif");
+}
+
+#gift-img-birthday:hover {
+    background-image: url("https://media.giphy.com/media/17qey3g3ssNEWSkE5W/giphy.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
